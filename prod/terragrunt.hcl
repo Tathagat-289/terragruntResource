@@ -2,8 +2,8 @@ locals {
 }
 
 terraform {
-  //  source = "git::git@github.com:Tathagat-289/terraformResources.git//module3"
-  source = "github.com/Tathagat-289/terraformResources//module1"
+  //  source = "git::git@github.com:Tathagat-289/terraformResources.git//list-output"
+  source = "github.com/Tathagat-289/terraformResources//list-output"
 }
 
 # Include all settings from the root terragrunt.hcl file
